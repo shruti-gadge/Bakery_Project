@@ -1,0 +1,439 @@
+*{
+    font:italic 1.9rem "Fira Sans",serif;   
+}
+
+.top{
+    background-color: #a7263b;
+}
+.top-header{
+    padding: 10px 20px;
+}
+.top-header i{
+    font-size: 25px;
+    color: white;
+}
+.info{
+    text-align: end;
+}
+.info a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.info a:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+header{
+    background-color: #e7e8e3;
+}
+header ul{
+    list-style-type: none ;
+    text-align: end;
+}
+header ul li{
+    padding: 9% 20px 0px;
+    text-align: end;
+}
+header ul li a{
+    
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+header ul li a:hover{
+    color: #a7263b;
+    text-underline-offset: 8px;
+}
+
+header button{
+    margin-top: 30px;
+    
+    height: 20px;
+    width: 30px;
+}
+header .navbar{
+    text-align: end;
+}
+.banner{
+    background-image: url(../images/banner1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h3{
+    text-align: center;
+    padding-top: 18%;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+.banner h2{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.home-about{
+    margin: 80px 0px;
+}
+.home-about img{
+    border: dashed grey;
+        padding: 10px;
+}
+.home-about h3{
+    text-align: center;
+    color: #a7263b;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font:italic 3.0rem "Fira Sans",serif;
+    margin-top: 0px;
+}
+.home-about h2{
+    text-align: center;
+    color: #a7263b;
+    font-size: 20px;
+    margin: 10px 0px 20px;
+    font:italic 4.0rem "Fira Sans",serif;
+}
+.home-about p{
+    text-align: center;
+    font-size: 1.9rem;
+}
+.home-about .button{
+    /* border: 1px solid black; */
+    padding: 15px;
+    background-color: #a7263b;
+    color: white;
+    border-radius: 30px;
+    margin-left: 45%;
+}
+.home-about p{
+    padding: 0px 10px;
+}
+
+footer{
+    background-color: #e7e8e3;
+}
+footer h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 30px 0px;
+    font:italic 2.7rem "Fira Sans",serif;
+    color: #a7263b;
+}
+footer ul{
+    /* text-align: center; */
+    list-style-type: none;
+    padding-left: 45%;
+    font-size: 18px;
+}
+footer ul li{
+    margin: 10px 0px;
+}
+footer a{
+    color: #a7263b;
+}
+footer a:hover{
+    text-decoration: none;
+    padding-left: 10px;
+    transition: 1s;
+    color: #a7263b;
+}
+footer p{
+    /* padding-left: 45%; */
+    text-align: center;
+    font-size: 18px;
+    color: #a7263b;
+}
+footer .social{
+    padding-left: 45%;
+    font-size: 30px;
+}
+footer .social a:hover{
+    text-decoration: none;
+    padding-left: 0px;
+    color: #a7263b;
+}
+footer img{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.testi h3{
+    text-align: center;
+    color: #a7263b;
+    font-size: 20px;
+    margin: 10px 0px 20px;
+    font:italic 3.0rem "Fira Sans",serif;
+}
+.testi p{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.testi .one{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.testi h4{
+    text-align: center;
+    font-size: 17px;
+}
+.passion, .commit, .speciality{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.speciality{
+    margin-bottom: 50px;
+}
+.passion h3, .commit h3, .speciality h3{
+    color: #a7263b;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.passion p, .commit p, .speciality p{
+    text-align: center;
+    padding: 20px;
+}
+.menu-heading h2{
+    color: #a7263b;
+    text-align: center;
+    font-size: 4.5rem;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.cake-pastry h3, .puffs h3{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-bottom: 30px;
+}
+.cake-pastry p{
+    padding-left: 10%;
+    
+}
+.cake-pastry img, .puffs img{
+    width: 100%;
+    border: 1px dashed grey;
+    padding: 10px;
+    margin-top: 50px;
+}
+.puffs p{
+    text-align: end;
+    padding-right: 10%;
+}
+.gall img{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 1px dashed grey;
+}
+.map{
+    padding: 10px;
+    /* margin: 40px; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.contact-us{
+    margin: 40px;
+    padding: 20px;
+}
+.reach{
+    padding: 50px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.reachs img{
+    margin-bottom: 30px;
+    padding-right: 30%;
+}
+.reachs a{
+    color: black;
+}
+.reach a:hover{
+    color: black;
+}
+.contact-us h3{
+    text-align: center;
+    color: #a7263b;
+    font-size: 3.5rem;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-bottom: 50px;
+}
+.touch{
+    padding: 40px 0px 0px 20px;
+    
+}
+.touch a{
+    color: black;
+}
+/* 
+=========================================================================================================
+                                        Media Query
+========================================================================================================= */
+
+@media (max-width:320px){
+    .reach{
+        padding: 50px 0px 30px 0px;
+        
+    }
+    .reachs a, p{
+        font-size: 14px !important;
+    }
+    .touch a{
+        font-size: 14px !important;
+    }
+    .cake-pastry p, .puffs p{
+        padding-left: 0px;
+        font-size: 16px;
+        
+    }
+    
+    /* footer p{
+        padding-left: 30% !important;
+    } */
+    
+    footer a{
+        font-size: 16px;
+    }
+}
+
+
+@media (Max-width:426px){
+    .touch a{
+        font-size: 16px;
+    }
+    .map{
+        margin-top: 30px;
+    }
+    .reachs a{
+        font-size: 16px;
+    }
+    .reachs{
+        padding-left: 10px; 
+    }
+    .map{
+        padding: 0px;
+    }
+    .contact-us{
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .puffs img{
+        margin-top: 20px;
+    }
+    .cake-pastry img{
+        margin-top: 10px;
+    }
+    .cake-pastry p, .puffs p{
+        font-size: 17px;
+        
+    }
+    footer p a{
+        font-size: 16px;
+    }
+    footer img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    footer ul{
+        font-size: 16px;
+    }
+    footer p{
+        /* padding-left: 40%; */
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .home-about img{
+        margin-top: 50px;
+        
+    }
+    .home-about .button{
+        margin-left: 35%;
+    }
+    .banner h3{
+        text-align: center;
+        padding-top: 18%;
+        font-weight: bolder;
+        font-size: 18px;
+        color: white;
+    }
+    .banner h2{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .banner{
+        background-size: contain;
+        height: 200px;
+    }
+    .info{
+        font-size: 14px;
+        padding: 0px;
+    }
+    .top-header i{
+        font-size: 14px;
+        padding: 0px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .map iframe{
+        height: 304px;
+    }
+    .contact-us{
+        margin: 0px;
+        padding: 0px;
+    }
+    .puffs img{
+        margin-left: 20%;
+        margin-top: 60px;
+    }
+    .cake-pastry img{
+        height: 200px;
+    }
+    .passion p, .commit p {
+        height: 230px;
+    }
+    footer p {
+        /* padding-left: 25%; */
+        text-align: center;
+    }
+    .home-about img{
+        height: 400px;
+
+    }
+    .banner{
+        background-size: contain;
+        height: 400px;
+    }
+    header ul li a{
+        padding: 0px 5px;
+    }
+    header ul li{
+        padding: 9% 10px 0px;
+    }
+}
+
+
+@media (min-width: 768px){
+    
+    header button{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1430px){
+    .passion p, .commit p {
+        height: 188px;
+    }
+
+}
